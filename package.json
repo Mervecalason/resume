@@ -37,9 +37,14 @@
     "raw-loader": "^0.5.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-particles-js": "^2.0.0",
-    "react-typist": "^1.0.1",
+    "react-particles-js": "^3.5.3",
+    "react-typist": "^2.0.5",
     "webpack-bundle-analyzer": "^4.4.2"
   },
-  "builds": [{ "src": "package.json", "use": "@now/next" }]
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ]
 }
