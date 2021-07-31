@@ -47,5 +47,8 @@
       "src": "package.json",
       "use": "@now/next"
     }
-  ]
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
 }
