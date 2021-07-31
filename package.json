@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "prestart": "next build",
+    "now-build": "next build",
     "build": "next build",
     "export": "next export .",
     "start": "next start",
@@ -30,7 +30,7 @@
     "autoprefixer": "^7.1.5",
     "babel-loader": "^7.1.2",
     "glob": "^7.1.2",
-    "next": "^4.0.1",
+    "next": "^11.0.1",
     "path": "^0.12.7",
     "postcss-easy-import": "^3.0.0",
     "postcss-loader": "^2.0.8",
@@ -38,7 +38,8 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-particles-js": "^2.0.0",
-    "react-typist": "^1.1.1",
-    "webpack-bundle-analyzer": "^2.9.0"
-  }
+    "react-typist": "^1.0.1",
+    "webpack-bundle-analyzer": "^4.4.2"
+  },
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
 }
