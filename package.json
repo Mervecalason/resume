@@ -1,0 +1,43 @@
+{
+  "name": "resume-nextjs",
+  "version": "1.0.0",
+  "description": "Resume website with NextJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "export": "next export .",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=1 next build",
+    "watch": "next dev -p 8001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mervecalason/resume.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "NextJS"
+  ],
+  "author": "Merve Calason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mervecalason/resume/issues"
+  },
+  "homepage": "https://github.com/Mervecalason/resume#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-loader": "^7.1.2",
+    "glob": "^7.1.2",
+    "next": "^4.0.1",
+    "path": "^0.12.7",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.8",
+    "raw-loader": "^0.5.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-particles-js": "^2.0.0",
+    "react-typist": "^1.1.1",
+    "webpack-bundle-analyzer": "^2.9.0"
+  }
+}
