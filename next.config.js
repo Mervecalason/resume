@@ -1,5 +1,5 @@
 const path = require('path')
-const glob = require('glob')
+// const glob = require('glob')
 
 module.exports = {
   exportPathMap: function () {
@@ -27,7 +27,7 @@ module.exports = {
           options: {
             includePaths: ['styles', 'node_modules']
               .map((d) => path.join(__dirname, d))
-              .map((g) => glob.sync(g))
+              // .map((g) => glob.sync(g))
               .reduce((a, c) => a.concat(c), [])
           }
         }
