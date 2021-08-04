@@ -258,7 +258,7 @@
     "esutils" "^2.0.2"
     "js-tokens" "^3.0.2"
 
-"babel-core@^6.26.0", "babel-core@^6.26.3", "babel-core@6":
+"babel-core@^6.26.0", "babel-core@6":
   "integrity" "sha512-6jyFLuDmeidKmUEb3NM+/yawG0M2bDZ9Z1qbZP59cyHLz8kYGKYwpJP0UwUKKUiTRNvxfLesJnTedqczP7cTDA=="
   "resolved" "https://registry.npmjs.org/babel-core/-/babel-core-6.26.3.tgz"
   "version" "6.26.3"
@@ -1063,9 +1063,9 @@
   "version" "0.4.1"
 
 "glob@^7.0.3", "glob@^7.1.2":
-  "integrity" "sha512-OvD9ENzPLbegENnYP5UUfJIirTg4+XwMWGaQfQTY0JenxNvvIKP3U3/tAQSPIu/lHxXYSZmpXlUHeqAIdKzBLQ=="
-  "resolved" "https://registry.npmjs.org/glob/-/glob-7.1.7.tgz"
-  "version" "7.1.7"
+  "integrity" "sha512-MJTUg1kjuLeQCJ+ccE4Vpa6kKVXkPYJ2mOCQyUuKLcLQsdrMCpBPUi8qVE6+YuaJkozeA9NusTAw3hLr8Xe5EQ=="
+  "resolved" "https://registry.npmjs.org/glob/-/glob-7.1.2.tgz"
+  "version" "7.1.2"
   dependencies:
     "fs.realpath" "^1.0.0"
     "inflight" "^1.0.4"
