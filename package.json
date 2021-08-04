@@ -47,6 +47,9 @@
     }
   ],
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
     "glob": "^7.1.2"
   }
 }
