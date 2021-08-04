@@ -8,7 +8,7 @@ export default class Projects extends React.Component {
             <section className="hero wrapper has-text-centered" id="projects">
                 <Title title="Projects" color='#2c3e50'/>
                 <div className="container">
-                    <Timeline side="left" time="May - June 2021" color="#e67e22">
+                    <Timeline side="left" time="July 2021" color="#e67e22">
                         <h4 style={{'color': '#e67e22'}}>Resume</h4>
                         <p>
                             <i className="position">Next.JS, HTML, CSS</i><br/>
