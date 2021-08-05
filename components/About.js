@@ -23,12 +23,12 @@ export default class About extends React.Component {
                 <div className="columns">
                     <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
                         Hello, my name is <b>Merve Calason</b>.
-                        Now, I am MBA student,
-                        but I prefer <b>front-end</b> because
+                        I am MBA student at the moment.
+                        I want to work on <b>front-end</b> because
                         I like to work with <i>colors</i> and <i>code</i> together.
-                        I'll be so proud when my [work is displayed on a screen
+                        I'll be so proud when my work is displayed on a screen
                         and want every one to see it as well.
-                        Moreover, I love learning new skills like <i>ReactJS</i>, <i>AngularJS</i> or <i>VueJS </i>
+                        Moreover, I love learning new skills like <i>ReactJS</i>, <i>C#</i> or <i>Sql </i>
                         because these make me feel so fun every times when I use.
 
                     </div>
