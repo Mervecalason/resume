@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class AboutInterest extends React.Component {
     render() {
-        let items = ['Coding', 'Sining', 'Taking Photo', 'Reading']
+        let items = ['Coding', 'Singing', 'Taking Photo', 'Reading']
         return (
             <div>
                 <div className="columns topic">
